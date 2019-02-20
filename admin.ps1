@@ -1,8 +1,8 @@
-# ’Pƒ‚ÉPowerShell‚ğ‹N“®‚µ‚Ä‚İ‚é
+# å˜ç´”ã«PowerShellã‚’èµ·å‹•ã—ã¦ã¿ã‚‹
 $proc = Start-Process -FilePath powershell -PassThru
 
-# ‹N“®‚µ‚½ƒvƒƒZƒX‚Ìƒ†[ƒU‚ğŠm”F‚·‚é
+# èµ·å‹•ã—ãŸãƒ—ãƒ­ã‚»ã‚¹ã®ãƒ¦ãƒ¼ã‚¶ã‚’ç¢ºèªã™ã‚‹
 Get-Process -InputObject $proc -IncludeUserName
 
-# ‘¼‚Ìƒ†[ƒU[Œ ŒÀ‚ÅƒvƒƒZƒX‚ğ‹N“®‚·‚é
+# ä»–ã®ãƒ¦ãƒ¼ã‚¶ãƒ¼æ¨©é™ã§ãƒ—ãƒ­ã‚»ã‚¹ã‚’èµ·å‹•ã™ã‚‹
 Start-Process -FilePath powershell -Credential Hoge -PassThru
